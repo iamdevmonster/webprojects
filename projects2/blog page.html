@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Chivo+Mono:ital,wght@0,100;1,100&family=Fasthand&family=Lora:wght@500&family=Noto+Sans+TC:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" ></a>
+            <div class="navlinks"id="navbar">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course page.html">COURSE</a></li>
+                <li><a href="blog page.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       
+    </section>
+              <!--   blog page section -->
+              <section class="blog-content">
+                <div class="row">
+                    <div class="blog-left">
+                    
+                <img src="images/certificate.jpg" alt="">
+                 <h1>Our certificate & Online Programs for 2023</h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quo eos velit natus provident optio omnis sint itaque obcaecati? Facilis impedit similique sapiente quo, ea autem qui. Praesentium tempora asperiores saepe. Molestias, itaque doloremque.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rerum ipsam at harum tenetur tempore quaerat corrupti iste, voluptas minus distinctio. Tempora ipsa explicabo ratione sequi sed error culpa eos, aliquam iste, dolores facilis expedita cumque dolorem ab, consequatur magnam.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rerum ipsam at harum tenetur tempore quaerat corrupti iste, voluptas minus distinctio. Tempora ipsa explicabo ratione sequi sed error culpa eos, aliquam iste, dolores facilis expedita cumque dolorem ab, consequatur magnam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime rerum ipsam at harum tenetur tempore quaerat corrupti iste, voluptas minus distinctio. Tempora ipsa explicabo ratione sequi sed error culpa eos, aliquam iste, dolores facilis expedita cumque dolorem ab, consequatur magnam.</p>
+                    
+                  
+            <div class="commentbox">
+                <h3>leave a comment</h3>
+                <form action="commentform">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea   rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="herobtn redbtn" >POST COMMENT</button>
+                </form>
+            </div>
+
+        </div>
+
+
+
+
+                    <div class="blog-right">
+                        <h3>Post categories</h3>
+                        <div>
+                          <span>Business Analytics</span>  
+                          <span>21</span>
+                        </div>
+                        <div>
+                          <span>Data science</span>  
+                          <span>24</span>
+                        </div>
+                        <div>
+                          <span>Blockchain</span>  
+                          <span>56</span>
+                        </div>
+                        <div>
+                          <span>Machine Learning</span>  
+                          <span>72</span>
+                        </div>
+                        <div>
+                          <span>Cloud Computing</span>  
+                          <span>82</span>
+                        </div>
+                    </div>
+                </div>
+              </section>
+
+
+   
+        
+       <!-- footer -->
+       <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia adipisci neque<br> rem laboriosam dolores ipsa nobis cumque illum beatae deleniti, quos voluptas error unde esse, nulla praesentium corrupti ut impedit.</p>
+       </section>
+
+
+
+
+
+
+
+<!--      javascript used for toggle menu -->
+    <script>
+        var navbar=document.getElementById("navbar");
+        function showMenu(){
+            navbar.style.right="0";
+        }
+        function hideMenu(){
+            navbar.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
